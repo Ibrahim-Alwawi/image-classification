@@ -1,6 +1,10 @@
 
 # coding: utf-8
 
+# This is a Python code for image classification based on colour. 
+# Image classification is done using the OpenCV library. 
+# A Nearest Neighbour algorithm is used to compare HSV (Hue Saturation Value) colour histograms of images.
+
 import cv2         #import opencv
 from matplotlib import pyplot as plt
 import os
